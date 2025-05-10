@@ -4,11 +4,9 @@
 Movie Tracker is a platform where users can create accounts, track upcoming or newly released movies, and add them to their watchlist (without watching them). Users can also update their personal settings and search for movies. All of these actions will be handled through an API.
 
 1. User Accounts and Management
-AuthController: Handles user account creation, login, and logout processes.
-
-User: Stores user data, such as username, email, and password. User-specific settings and history are stored here.
-
-UserSettings: Stores and manages user preferences, such as notification settings and other customizations.
+* AuthController: Handles user account creation, login, and logout processes.
+* User: Stores user data, such as username, email, and password. User-specific settings and history are stored here.
+* UserSettings: Stores and manages user preferences, such as notification settings and other customizations.
 
 2. Movie Tracking and Search
 MovieController: Fetches data from the API for upcoming and newly released movies. Users can view movie details.
